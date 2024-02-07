@@ -26,7 +26,7 @@ document.querySelector("#botao").addEventListener("click", () => {
         resposta.innerHTML = `${nome}, Seu IMC é normal!,. seu IMC é de${imc.toFixed(2)}`
     }
     else if(imc <=29.9){
-        resposta.innerHTML = `${nome}, Você está com sobrepeso, cuidado!. seu IMC é de ${imc.toFixed(2)}`        
+        resposta.innerHTML = `${nome}, Você está levemente acima do peso, cuidado!. seu IMC é de ${imc.toFixed(2)}`        
     }
     else if (imc <=34.9){
         resposta.innerHTML = `${nome}, Obesidade grau I, procure um medíco!,  seu IMC é de ${imc.toFixed(2)}`
