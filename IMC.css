@@ -1,24 +1,12 @@
-@media(max-width:768px) {
-    .quiz-container {
-        background-color: #fff;
-        width: 96%;
-        margin: 0 auto;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        display: flex;
-        flex-direction: column;
+@media(max-width:768px){
+    .container {
+        display: block;
     }
-
-    #opcoes-container {
-        flex-direction: column;
-        width: 80%;
-        margin: auto;
+    form {
+        margin: none;
     }
-
-    #next-button {
-        width: 80%;
-        margin: auto;
+    #telapreta {
+        width: auto;
     }
 }
 *{
